@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://developer.api.autodesk.com/modelderivative/v2/viewers/6.*/style.css">
+    <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/6.*/viewer3D.js"></script>
+    <title>Azure Forge Sample Application</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+        }
+
+        #viewer {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #models {
+            position: absolute;
+            left: 1em;
+            top: 1em;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="viewer"></div>
+    <select name="model" id="models"></select>
+    <script src="/viewer.js"></script>
+</body>
+
+</html>
