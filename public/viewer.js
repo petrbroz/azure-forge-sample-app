@@ -1,4 +1,4 @@
-const API_HOST = 'https://forge-sample-app.azurewebsites.net';
+const API_HOST = 'https://test-forge-project-app.azurewebsites.net';
 const VIEWER_OPTIONS = {
 	env: 'AutodeskProduction',
 	getAccessToken: function(callback) {
@@ -33,6 +33,7 @@ Autodesk.Viewing.Initializer(VIEWER_OPTIONS, () => {
                             option.value = model.urn;
                             select.appendChild(option);
                         }
+                        loadModel(select.value);
                     })
                     .catch(err => console.error(err));
             }
