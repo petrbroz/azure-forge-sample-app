@@ -1,6 +1,6 @@
 {
   "name": "azure-forge-sample-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Sample Autodesk Forge application prepared for deployment to Microsoft Azure.",
   "scripts": {},
   "author": "Petr Broz <petr.broz@autodesk.com>",
